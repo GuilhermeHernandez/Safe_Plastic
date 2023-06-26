@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&family=Roboto&display=swap');
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    margin-bottom: 90px;
+}
+
+header img.img_logo {
+    max-width: 1350px;
+    width: 100%;
+    height: 250px;
+}
+
+header img.logo {
+    max-width: 800px;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+
+
+/*DEFININDO MEDIDA*/
+.container_header{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*DEFININDO MEDIDA*/
+.container_header{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_logo{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_text_1{
+    background-color: rgb(76, 153, 224);
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 120px;
+}
+
+.container_text_1 p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    word-spacing: 4px;
+}
+
+.container_text_1 h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    word-spacing: 4px;
+}
+
+.container_dif{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(76, 153, 224);
+    border-radius: 15px;
+}
+
+.container_dif h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 32px;
+    color: white;
+}
+
+.item_dif{
+    margin-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.imgs_dif{
+    width: 220px;
+}
+
+.paragrafo_dif{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    padding: 0px 15px 15px 15px;
+}
+
+
+.container_filosofia{
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.container_filosofia h2{
+    margin-left: 42%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.container_filosofia p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+strong {
+    color: rgb(255, 255, 255);
+}
+
+.container_quem_somos{
+    max-width: 1000px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.container_titulo_quem_somos{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.container_titulo_quem_somos h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.quem_somos .itens {
+    background-color:rgb(238, 238, 238);
+    width: 300px;
+    height: 800px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.quem_somos .itens p{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 35px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quem_somos .itens h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+
+
+img.img_quem_somos {
+    height: 91px;
+    margin-top: 70px;
+}
+
+.container_negocio{
+    max-width: 1100px;
+    height: 1300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.container_negocio h3{
+    font-size: 24px;
+    padding-left: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container_negocio h2{
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.item_negocio{
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.img_negocio{
+    width: 130px;
+}
+
+.text_negocio{
+    font-size: 20px;
+    padding: 0px 15px 0px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* PRODUTOS */
+
+.container_produtos{
+    max-width: 1100px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.container_titulo_produtos{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.container_titulo_produtos h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.produtos .itens_produtos {
+    background-color:rgb(238, 238, 238);
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.produtos .itens_produtos p{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 35px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.produtos .itens_produtos h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+
+
+img.img_produtos {
+    padding-top: 20px;
+    width: 200px;
+}
